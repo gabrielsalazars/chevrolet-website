@@ -4,6 +4,15 @@
     margin: 0;
     padding: 0;
     color: black;
+    text-decoration: none;
+}
+
+.noticias{
+    padding: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 10px;
 }
 
 .nav-main{
@@ -30,7 +39,6 @@
 .nav-main ul{
     display: flex;
     justify-content: center;
-
 }
 
 
@@ -42,27 +50,29 @@
 .nav-main ul li a{
     padding: 2px;
     text-decoration: none;
-
 }
 
 .nav-main ul li a:hover {
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(201, 165, 63);
+}
+
+.landing-page img{
+    width: 100%;
+}
+
+.categories-section ul li:hover {
+    border-bottom: 3px solid black;
 }
 
 ul li{
     padding: 10px;
     list-style: none;
-
 }
 
 ul li a{
     padding: 2px;
     text-decoration: none;
 
-}
-
-ul li a{
-    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 
@@ -95,3 +105,6 @@ h2{
     padding-left: 2%;
 }
 
+.rectangle{
+    margin-top: -150px;
+}
